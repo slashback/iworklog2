@@ -1,0 +1,78 @@
+body {
+
+}
+
+input[type=text] {
+    border-color: transparent !important;
+    border-bottom: 1px solid black !important;
+    font-size: 48px;
+    text-align: center;
+  }
+  input[type="text"]:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#hours {
+    width: 58px;
+}
+
+#minutes {
+    width: 86px;
+}
+
+#timelog {
+    width: 155px;
+}
+
+#delimiter {
+    font-size: 60px;
+}
+
+#issue-block {
+    align-self: center;
+    margin-top: 30px;
+}
+
+#issue {
+    width: 170px;
+    margin-left: -6px;
+}
+
+#subimtbtn {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    height: 150px;
+}
+
+.btn {
+    width: 120px;
+    font-size: 120px;
+    line-height: 120px;
+    height: 120px;
+}
+
+#token {
+    font-size: 16px;
+    width: 300px;
+}
+
+#footer {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    bottom: 10px;
+}

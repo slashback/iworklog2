@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo API Client Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" media="all" rel="stylesheet" />
+    <script src="script.js"></script>
+</head>
+    <body>
+        <div id="main" class="container">
+            <div id="issue-block">
+                <input type="text" name="issue" id="issue" placeholder="20626">
+            </div>
+
+            <div id="form">
+                <div id="time">
+                    <input type="text" name="hours" id="hours" placeholder="hh">
+                    <span id="delimiter">:</span>
+                    <input type="text" name="minutes" id="minutes" placeholder="mm">
+                </div>
+                <input type="text" name="timelog" id="timelog" placeholder="2h30m">
+            </div>
+           
+            <div id="subimtbtn">
+                <button class="btn" onclick="foo()">+</button>
+            </div>
+            <div id="footer">
+                    <input type="text" name="token" id="token">
+            </div>
+        </div>
+    </body>
+</html>
